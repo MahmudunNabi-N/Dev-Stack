@@ -1,10 +1,10 @@
 import bannerStack from '../assets/banner-stack.png'
 const Banner = () => {
     return (
-       <section className="mx-auto max-w-[1280px] px-6 flex justify-between items-center sm:py-12 lg:grid-cols-2 lg:gap-8 ">
+       <section className="mx-auto max-w-7xl px-6 flex justify-between items-center sm:py-12 lg:grid-cols-2 lg:gap-8 ">
       <div className="max-w-5xl">
         {/* Heading */}
-        <h1 className="text-5xl font-extrabold leading-tight text-[#10182d] md:text-6xl lg:text-7xl">
+        <h1 className="text-5xl font-extrabold leading-tight text-[#10182d] ">
           Build Your Ideal
           <br />
 

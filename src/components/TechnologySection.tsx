@@ -219,7 +219,7 @@ const TechnologySection = () => {
   return (
     <section className="bg-white py-6">
 
-      <div className="mx-auto max-w-[1280px] px-6 sm:py-12 lg:grid-cols-2 lg:gap-8">
+      <div className="mx-auto max-w-7xl px-6 sm:py-12 lg:grid-cols-2 lg:gap-8">
 
         <div className="mb-7">
           <h2 className="text-3xl font-extrabold tracking-tight text-[#10182d] sm:text-4xl">
