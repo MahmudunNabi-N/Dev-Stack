@@ -1,13 +1,13 @@
 const Footer = () => {
     return (
     <footer className="w-full bg-white">
-      <div className="mx-auto max-w-7xl px-6 pt-1 pb-11">
+      <div className="mx-auto max-w-[1280px] px-6 pt-1 pb-11 sm:py-12 lg:grid-cols-2 lg:gap-8 lg:py-20">
 
         {/* Main Footer */}
         <div className="grid grid-cols-4">
 
           {/* Brand */}
-          <div className="max-w-325">
+          <div className="max-w-85">
             <div className="flex items-center gap-2">
               <div className="flex h-5.25 w-5.25 items-center justify-center rounded-[5px] bg-linear-to-br from-purple-500 to-pink-500 text-[10px] font-bold text-white">
                 DS
@@ -126,7 +126,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Footer */}
-        <div className="mt-0 flex items-center justify-between border-t border-gray-100 pt-6.75">
+        <div className="mt-[20px] flex items-center justify-between border-t border-gray-100 pt-6.75">
           <p className="text-[14px] text-slate-400">
             © 2026 Dev Stack. All rights reserved.
           </p>
