@@ -1,45 +1,60 @@
-import bannerStack from '../assets/banner-stack.png'
+import bannerStack from "../assets/banner-stack.png";
+
 const Banner = () => {
-    return (
-       <section className="mx-auto max-w-7xl px-6 flex justify-between items-center sm:py-12 lg:grid-cols-2 lg:gap-8 ">
-      <div className="max-w-5xl">
-        {/* Heading */}
-        <h1 className="text-5xl font-extrabold leading-tight text-[#10182d] ">
-          Build Your Ideal
-          <br />
+  return (
+    <section className="bg-white">
+      <div className="mx-auto grid w-full max-w-300 grid-cols-1 items-center gap-10 px-5 py-12 sm:px-8 sm:py-16 lg:grid-cols-2 lg:gap-12 lg:px-10 lg:py-20">
 
-          <span className="bg-linear-to-r from-orange-500 via-pink-500 to-purple-600 bg-clip-text text-transparent">
-            Development Stack
-          </span>
-        </h1>
+        {/* LEFT CONTENT */}
+        <div className="text-center lg:text-left">
 
-        {/* Description */}
-        <p className="mt-8 max-w-4xl text-xl leading-relaxed text-slate-600 md:text-2xl">
-          Explore frontend, backend, database, and tooling options,
-          compare them side by side, and put together the stack that fits
-          your next project.
-        </p>
+          {/* Heading */}
+          <h1 className="text-4xl font-extrabold leading-[1.05] tracking-tight text-[#10182d] sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl">
+            Build Your Ideal
+            <br />
 
-        {/* Buttons */}
-        <div className="mt-12 flex gap-5">
-         <a href="#technologies" className="text-white"> <button className= "cursor-pointer rounded-xl bg-linear-to-r from-orange-500 to-pink-500 px-6 py-4 text-lg font-semibold text-white shadow-sm transition hover:scale-105">
-            Explore Technologies
-          </button></a>
+            <span className="bg-linear-to-r from-orange-500 via-pink-500 to-purple-600 bg-clip-text text-transparent">
+              Development Stack
+            </span>
+          </h1>
 
-         <a href="#technologies" className="text-black"> <button className="cursor-pointer rounded-xl border border-slate-200 bg-white px-16 py-4 text-lg text-slate-700 transition hover:bg-slate-50">
-            Learn More
-          </button></a>
+          {/* Description */}
+          <p className="mx-auto mt-6 max-w-162.5 text-base leading-relaxed text-slate-600 sm:text-lg md:text-xl lg:mx-0 lg:mt-7">
+            Explore frontend, backend, database, and tooling options,
+            compare them side by side, and put together the stack that
+            fits your next project.
+          </p>
+
+          {/* Buttons */}
+          <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row lg:justify-start">
+
+            <a href="#technologies">
+              <button className="w-full cursor-pointer rounded-xl bg-linear-to-r from-orange-500 to-pink-500 px-6 py-3.5 text-sm font-semibold text-white shadow-sm transition hover:scale-[1.02] sm:w-auto sm:text-base">
+                Explore Technologies
+              </button>
+            </a>
+
+            <a href="#technologies">
+              <button className="w-full cursor-pointer rounded-xl border border-slate-200 bg-white px-8 py-3.5 text-sm text-slate-700 transition hover:bg-slate-50 sm:w-auto sm:px-12 sm:text-base">
+                Learn More
+              </button>
+            </a>
+
+          </div>
         </div>
+
+        {/* RIGHT IMAGE */}
+        <div className="flex justify-center lg:justify-end">
+          <img
+            src={bannerStack}
+            alt="Development Stack"
+            className="w-55 max-w-full object-contain sm:w-70 md:w-[320px] lg:w-97.5"
+          />
+        </div>
+
       </div>
-        {/* Image */}
-
-        <div className="sm:py-12 lg:grid-cols-2 lg:gap-8 lg:py-20">
-            <img src={bannerStack} alt="Banner" className='' />
-        </div>
-
-
     </section>
-    );
+  );
 };
 
 export default Banner;
