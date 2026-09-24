@@ -5,7 +5,7 @@ const Banner = () => {
     <section className="bg-white">
       <div className="mx-auto grid w-full max-w-300 grid-cols-1 items-center gap-10 px-5 py-12 sm:px-8 sm:py-16 lg:grid-cols-2 lg:gap-12 lg:px-10 lg:py-20">
 
-        {/* LEFT CONTENT */}
+        {/* LEFT */}
         <div className="text-center lg:text-left">
 
           {/* Heading */}
@@ -18,7 +18,6 @@ const Banner = () => {
             </span>
           </h1>
 
-          {/* Description */}
           <p className="mx-auto mt-6 max-w-162.5 text-base leading-relaxed text-slate-600 sm:text-lg md:text-xl lg:mx-0 lg:mt-7">
             Explore frontend, backend, database, and tooling options,
             compare them side by side, and put together the stack that
@@ -43,7 +42,7 @@ const Banner = () => {
           </div>
         </div>
 
-        {/* RIGHT IMAGE */}
+        {/* IMAGE */}
         <div className="flex justify-center lg:justify-end">
           <img
             src={bannerStack}
