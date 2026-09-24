@@ -1,7 +1,7 @@
 import bannerStack from '../assets/banner-stack.png'
 const Banner = () => {
     return (
-       <section className="m-auto px-5 py-20 md:px-16 lg:px-20 flex justify-between items-center">
+       <section className="mx-auto w-full max-w-325 flex justify-between items-center">
       <div className="max-w-5xl">
         {/* Heading */}
         <h1 className="text-5xl font-extrabold leading-tight text-[#10182d] md:text-6xl lg:text-7xl">
