@@ -1,5 +1,5 @@
 import Banner from "./components/Banner"
-import Footer from "./components/footer"
+import Footer from "./components/Footer"
 import Nav from "./components/Nav"
 import TechnologySection from "./components/TechnologySection"
 
